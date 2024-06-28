@@ -2341,6 +2341,203 @@
 				)
 			)
 		)
+		(symbol "Connector_Generic:Conn_02x02_Odd_Even"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x02_Odd_Even"
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x02_Odd_Even_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_02x03_Top_Bottom"
 			(pin_names
 				(offset 1.016) hide)
@@ -18752,22 +18949,22 @@
 	)
 	(global_label "RPI0_GPIO26"
 		(shape input)
-		(at 426.72 353.06 180)
+		(at 361.95 327.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "22522ac2-41e9-497b-b586-2a8688715337")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 411.5186 353.06 0)
+			(at 377.1514 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -19984,7 +20181,7 @@
 	)
 	(global_label "RPI0_GPIO24"
 		(shape input)
-		(at 426.72 347.98 180)
+		(at 349.25 325.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19994,7 +20191,7 @@
 		)
 		(uuid "69f86d0b-5822-4a60-ad85-8f97b6c1ceaa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 411.5186 347.98 0)
+			(at 334.0486 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20358,7 +20555,7 @@
 	)
 	(global_label "RPI0_GPIO25"
 		(shape input)
-		(at 426.72 350.52 180)
+		(at 349.25 327.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20368,7 +20565,7 @@
 		)
 		(uuid "7a92e716-1007-4ff9-809c-248d5d1844ef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 411.5186 350.52 0)
+			(at 334.0486 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20534,22 +20731,22 @@
 	)
 	(global_label "RPI0_GPIO27"
 		(shape input)
-		(at 426.72 355.6 180)
+		(at 361.95 325.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "84fb920b-9ebb-4e48-bd3a-0a840e4cf61f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 411.5186 355.6 0)
+			(at 377.1514 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -22718,7 +22915,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CR2032-BS-6-1:BAT_CR2032-BS-6-1"
 			(at 241.3 37.846 90)
 			(effects
 				(font
@@ -22736,7 +22933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single-cell battery"
+		(property "Description" "C70377"
 			(at 241.3 39.37 0)
 			(effects
 				(font
@@ -23386,7 +23583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C220679"
 			(at 99.06 271.78 0)
 			(effects
 				(font
@@ -24002,7 +24199,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Chilisin_BMRB00060612"
 			(at 534.67 95.25 0)
 			(effects
 				(font
@@ -24020,7 +24217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "C5189749"
 			(at 534.67 95.25 0)
 			(effects
 				(font
@@ -25384,7 +25581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C49757"
 			(at 499.11 35.56 0)
 			(effects
 				(font
@@ -25448,7 +25645,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:SW_TS-1187A-B-A-B"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 33.02 175.26 0)
 			(effects
 				(font
@@ -25863,7 +26060,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:SW_TS-1187A-B-A-B"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 55.88 175.26 0)
 			(effects
 				(font
@@ -25950,7 +26147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C49757"
 			(at 499.11 68.58 0)
 			(effects
 				(font
@@ -26799,7 +26996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C15464"
 			(at 519.43 187.96 0)
 			(effects
 				(font
@@ -27566,7 +27763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C9865"
 			(at 514.35 105.41 0)
 			(effects
 				(font
@@ -33022,22 +33219,22 @@
 		(fields_autoplaced yes)
 		(uuid "ac687a3d-f0ea-476a-ba90-b398d6b7bbd7")
 		(property "Reference" "L2"
-			(at 530.225 60.325 90)
+			(at 530.225 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "2.2uH"
-			(at 530.225 62.865 90)
+		(property "Value" "4.7uH"
+			(at 530.225 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_Chilisin_BMRB00060612"
 			(at 530.225 66.04 0)
 			(effects
 				(font
@@ -33055,7 +33252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C5189748"
 			(at 530.225 66.04 0)
 			(effects
 				(font
@@ -34956,22 +35153,22 @@
 		(fields_autoplaced yes)
 		(uuid "c7c43260-7abc-43bd-826c-49127e4f4877")
 		(property "Reference" "L1"
-			(at 530.225 27.305 90)
+			(at 530.225 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "2.2uH"
-			(at 530.225 29.845 90)
+		(property "Value" "3.3uH"
+			(at 530.225 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_Chilisin_BMRB00060612"
 			(at 530.225 33.02 0)
 			(effects
 				(font
@@ -34989,7 +35186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C5189747"
 			(at 530.225 33.02 0)
 			(effects
 				(font
@@ -37328,6 +37525,80 @@
 			(project "vfd-tool"
 				(path "/849d9919-4175-4212-8785-6cd0421cfa2d"
 					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x02_Odd_Even")
+		(at 354.33 325.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebb58dee-9522-4c50-8334-15fee8b2f23a")
+		(property "Reference" "J7"
+			(at 355.6 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x02_Odd_Even"
+			(at 355.6 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 354.33 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 354.33 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 354.33 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3614c6b-492e-4cc5-9df3-02a0070090f3")
+		)
+		(pin "3"
+			(uuid "771197b3-785c-4a3a-9f9a-ae5a663cc812")
+		)
+		(pin "4"
+			(uuid "a36c3e16-081a-4f56-a52a-628da1f1a6dd")
+		)
+		(pin "2"
+			(uuid "fcb9157c-ada3-44ef-9e9a-20ac1fd8e361")
+		)
+		(instances
+			(project "vfd-tool"
+				(path "/849d9919-4175-4212-8785-6cd0421cfa2d"
+					(reference "J7")
 					(unit 1)
 				)
 			)
