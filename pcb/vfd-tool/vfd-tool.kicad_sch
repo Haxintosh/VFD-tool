@@ -13198,6 +13198,12 @@
 		(uuid "27fc9827-53c3-42d8-9420-827040bc131e")
 	)
 	(junction
+		(at 13.97 292.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c0e2668-1f0a-4093-8422-c6c15b5b7ab3")
+	)
+	(junction
 		(at 34.29 299.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13400,6 +13406,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c70fe03-00d6-4a7e-82ec-103f4cbe7cb5")
+	)
+	(junction
+		(at 24.13 299.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d643df7-3d6f-43ff-944f-677c4d80f37f")
 	)
 	(junction
 		(at 234.315 100.33)
@@ -13934,6 +13946,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5ed2041-15e8-4cc0-aee3-1630b0a58cf4")
+	)
+	(junction
+		(at 24.13 292.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d70806d0-88d1-4376-afda-3a9f8f4b6e5e")
 	)
 	(junction
 		(at 546.1 259.08)
@@ -15471,16 +15489,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 292.1) (xy 34.29 292.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49ad9cab-0b29-4c77-8455-a99c92406003")
-	)
-	(wire
-		(pts
 			(xy 34.29 93.98) (xy 34.29 95.25)
 		)
 		(stroke
@@ -15871,6 +15879,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 292.1) (xy 34.29 292.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e7f6769-6e7c-4ca0-9038-a14e957fc5cf")
+	)
+	(wire
+		(pts
 			(xy 64.77 292.1) (xy 73.66 292.1)
 		)
 		(stroke
@@ -15978,6 +15996,16 @@
 			(type default)
 		)
 		(uuid "641e2565-5243-4d9e-8efb-66f28cfcab69")
+	)
+	(wire
+		(pts
+			(xy 13.97 299.72) (xy 24.13 299.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6422fe40-adac-4a7c-8d80-af77a489eeea")
 	)
 	(wire
 		(pts
@@ -17701,6 +17729,16 @@
 	)
 	(wire
 		(pts
+			(xy 7.62 292.1) (xy 13.97 292.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb48cd9b-e83a-4aec-bb11-0b8894dda825")
+	)
+	(wire
+		(pts
 			(xy 328.93 306.07) (xy 328.93 307.34)
 		)
 		(stroke
@@ -18531,6 +18569,16 @@
 	)
 	(wire
 		(pts
+			(xy 13.97 292.1) (xy 24.13 292.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e74a591f-5305-4cc9-a06e-34cbe41dd01b")
+	)
+	(wire
+		(pts
 			(xy 54.61 234.95) (xy 68.58 234.95)
 		)
 		(stroke
@@ -19280,8 +19328,8 @@
 		(uuid aeea3f32-4f1c-471b-880a-826662c1df4a)
 	)
 	(rectangle
-		(start 13.97 193.04)
-		(end 264.16 349.25)
+		(start -236.22 349.25)
+		(end 13.97 193.04)
 		(stroke
 			(width 0)
 			(type default)
@@ -22842,7 +22890,7 @@
 	)
 	(global_label "3V3"
 		(shape input)
-		(at 24.13 292.1 180)
+		(at 7.62 292.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22852,7 +22900,7 @@
 		)
 		(uuid "a1841414-062d-4345-9fab-fc75c77be355")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.6372 292.1 0)
+			(at 1.1272 292.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23280,7 +23328,7 @@
 			)
 		)
 	)
-	(global_label "EXTRA_USB4_D-"
+	(global_label "EXTRA_USB3_D-"
 		(shape input)
 		(at 127 254 0)
 		(fields_autoplaced yes)
@@ -34969,6 +35017,75 @@
 			(project "vfd-tool"
 				(path "/849d9919-4175-4212-8785-6cd0421cfa2d"
 					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 13.97 295.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa175b22-743d-4d6c-b6b1-c4b01911fc65")
+		(property "Reference" "C62"
+			(at 16.51 295.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 16.51 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 14.9352 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 13.97 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 13.97 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f2b9bf8-c8a1-4413-badf-3a996056ed30")
+		)
+		(pin "2"
+			(uuid "b46decc0-ac6f-4182-bd7c-ecd6bc30ddc4")
+		)
+		(instances
+			(project "vfd-tool"
+				(path "/849d9919-4175-4212-8785-6cd0421cfa2d"
+					(reference "C62")
 					(unit 1)
 				)
 			)
