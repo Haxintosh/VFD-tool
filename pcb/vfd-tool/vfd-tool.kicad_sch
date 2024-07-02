@@ -14419,7 +14419,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 58.42) (xy 36.83 58.42)
+			(xy 27.94 58.42) (xy 30.48 58.42)
 		)
 		(stroke
 			(width 0)
@@ -14939,7 +14939,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 55.88) (xy 36.83 55.88)
+			(xy 27.94 55.88) (xy 30.48 55.88)
 		)
 		(stroke
 			(width 0)
@@ -17199,7 +17199,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 58.42) (xy 48.26 58.42)
+			(xy 38.1 58.42) (xy 48.26 58.42)
 		)
 		(stroke
 			(width 0)
@@ -17959,7 +17959,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 55.88) (xy 48.26 55.88)
+			(xy 38.1 55.88) (xy 48.26 55.88)
 		)
 		(stroke
 			(width 0)
@@ -19328,8 +19328,8 @@
 		(uuid aeea3f32-4f1c-471b-880a-826662c1df4a)
 	)
 	(rectangle
-		(start -236.22 349.25)
-		(end 13.97 193.04)
+		(start 13.97 193.04)
+		(end 264.16 349.25)
 		(stroke
 			(width 0)
 			(type default)
@@ -19697,6 +19697,28 @@
 			(justify left)
 		)
 		(uuid "dc8a1d52-f52a-4f3e-ba0e-836159a2eaf8")
+	)
+	(label "2040_D-"
+		(at 39.37 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d96931c-3bdf-4e52-b80c-5eda80fa3a9a")
+	)
+	(label "2040_D+"
+		(at 39.37 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ce28f66b-1b27-40ab-822a-b36b1f6d5f64")
 	)
 	(global_label "uSD_CLK"
 		(shape input)
@@ -20734,7 +20756,7 @@
 	)
 	(global_label "RP2040_D+"
 		(shape input)
-		(at 34.29 55.88 180)
+		(at 27.94 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20744,7 +20766,7 @@
 		)
 		(uuid "3944bb3c-2003-465f-b2c3-406c9251a9d7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.1168 55.88 0)
+			(at 13.7668 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23374,7 +23396,7 @@
 	)
 	(global_label "RP2040_D-"
 		(shape input)
-		(at 34.29 58.42 180)
+		(at 27.94 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23384,7 +23406,7 @@
 		)
 		(uuid "becab05b-9945-41a6-8f65-95ab32f87d94")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.1168 58.42 0)
+			(at 13.7668 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29837,7 +29859,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 40.64 58.42 270)
+		(at 34.29 58.42 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29845,7 +29867,7 @@
 		(dnp no)
 		(uuid "592db162-49aa-467d-abc8-ad99f8a130ea")
 		(property "Reference" "R6"
-			(at 41.91 59.69 0)
+			(at 35.56 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29854,7 +29876,7 @@
 			)
 		)
 		(property "Value" "27.4R"
-			(at 39.37 59.69 0)
+			(at 33.02 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29863,7 +29885,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 40.64 56.642 90)
+			(at 34.29 56.642 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29872,7 +29894,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 58.42 0)
+			(at 34.29 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29881,7 +29903,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 58.42 0)
+			(at 34.29 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30028,7 +30050,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 40.64 55.88 90)
+		(at 34.29 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30036,7 +30058,7 @@
 		(dnp no)
 		(uuid "5b64cf56-ec56-4bcb-9f35-b1ee801079e0")
 		(property "Reference" "R5"
-			(at 39.37 54.61 0)
+			(at 33.02 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30045,7 +30067,7 @@
 			)
 		)
 		(property "Value" "27.4R"
-			(at 41.91 54.61 0)
+			(at 35.56 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30054,7 +30076,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 40.64 57.658 90)
+			(at 34.29 57.658 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30063,7 +30085,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 55.88 0)
+			(at 34.29 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30072,7 +30094,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 55.88 0)
+			(at 34.29 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
