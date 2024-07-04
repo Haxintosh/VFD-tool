@@ -44,12 +44,14 @@
 		(stackup
 			(layer "F.SilkS"
 				(type "Top Silk Screen")
+				(color "White")
 			)
 			(layer "F.Paste"
 				(type "Top Solder Paste")
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
+				(color "Green")
 				(thickness 0.01)
 			)
 			(layer "F.Cu"
@@ -58,7 +60,7 @@
 			)
 			(layer "dielectric 1"
 				(type "prepreg")
-				(color "#808080FF")
+				(color "FR4 natural")
 				(thickness 0.1)
 				(material "FR4")
 				(epsilon_r 4.5)
@@ -70,6 +72,7 @@
 			)
 			(layer "dielectric 2"
 				(type "core")
+				(color "FR4 natural")
 				(thickness 1.24)
 				(material "FR4")
 				(epsilon_r 4.5)
@@ -81,6 +84,7 @@
 			)
 			(layer "dielectric 3"
 				(type "prepreg")
+				(color "FR4 natural")
 				(thickness 0.1)
 				(material "FR4")
 				(epsilon_r 4.5)
@@ -92,6 +96,7 @@
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
+				(color "Green")
 				(thickness 0.01)
 			)
 			(layer "B.Paste"
@@ -99,8 +104,9 @@
 			)
 			(layer "B.SilkS"
 				(type "Bottom Silk Screen")
+				(color "White")
 			)
-			(copper_finish "None")
+			(copper_finish "ENIG")
 			(dielectric_constraints no)
 		)
 		(pad_to_mask_clearance 0)
@@ -45811,6 +45817,28 @@
 			(uuid "43d75fb0-44ac-483e-827a-503275638c8b")
 		)
 	)
+	(gr_rect
+		(start 232.625 93.325)
+		(end 235.6 94.925)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "B.SilkS")
+		(uuid "3473dfbd-21da-4039-bdbf-144b83004148")
+	)
+	(gr_rect
+		(start 214.3 73.975)
+		(end 235.6 94.925)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "B.SilkS")
+		(uuid "71a5bc39-497c-43f3-b859-bf1ca2eabfdf")
+	)
 	(gr_poly
 		(pts
 			(xy 165.752083 116.490625) (xy 164.429166 116.490625) (xy 164.429166 116.821354) (xy 164.098437 116.821354)
@@ -46537,6 +46565,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "RTC battery"
+		(at 163.4 113.475 0)
+		(layer "B.SilkS")
+		(uuid "52edb6c8-ea03-4a8c-9aa0-89dbfccab501")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "JLCJLCJLCJLC"
 		(at 193.1 122.075 0)
 		(layer "B.SilkS")
@@ -46545,6 +46586,32 @@
 			(font
 				(size 1 1)
 				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Pi Zero"
+		(at 179.125 88.45 0)
+		(layer "B.SilkS")
+		(uuid "be9a61cf-1da7-45ac-b480-faac3963aa53")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "uSD"
+		(at 235.35 94.65 -0)
+		(layer "B.SilkS")
+		(uuid "c6f7a27c-a8f7-46f2-892e-434ccdd7ed8b")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.15)
+				(bold yes)
 			)
 			(justify left bottom mirror)
 		)
@@ -46922,30 +46989,6 @@
 				(size 0.75 0.75)
 				(thickness 0.15)
 				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "PCB3D_BR_MCU"
-		(at 237.775 125.925 0)
-		(layer "User.1")
-		(uuid "43ac23eb-559a-4161-8967-547d414ec6c9")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "PCB3D_TL_MCU"
-		(at 129.55 71.975 0)
-		(layer "User.1")
-		(uuid "67da3fc3-543d-44bb-88f6-832e6cc575b4")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
