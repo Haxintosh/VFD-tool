@@ -13305,12 +13305,6 @@
 		(uuid "0f236fb4-cb40-4658-a081-2a059d1fbbd2")
 	)
 	(junction
-		(at 247.65 237.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "10499946-db97-432f-a634-64ef14f24401")
-	)
-	(junction
 		(at 392.43 304.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13695,12 +13689,6 @@
 		(uuid "5f5e97bb-295a-41fc-92db-98812a3a1838")
 	)
 	(junction
-		(at 527.05 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "605c43ec-c8ef-4cc7-88ad-f282458c5c79")
-	)
-	(junction
 		(at 547.37 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13831,6 +13819,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b20aaef-7efb-465b-bd68-649d0883a32e")
+	)
+	(junction
+		(at 527.05 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b9b00f3-71cb-4ff9-81e7-4b831668ec45")
 	)
 	(junction
 		(at 90.17 24.13)
@@ -14331,6 +14325,12 @@
 		(uuid "eae23c61-85c6-44c9-a3f7-094e74e9313b")
 	)
 	(junction
+		(at 247.65 237.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb70d5a1-a88f-4ad4-95cc-4dc0d9cf77a2")
+	)
+	(junction
 		(at 504.19 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14698,6 +14698,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 237.49) (xy 251.46 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f9334cc-4189-41b9-b546-0498745686f8")
+	)
+	(wire
+		(pts
 			(xy 90.17 31.75) (xy 100.33 31.75)
 		)
 		(stroke
@@ -15005,6 +15015,16 @@
 			(type default)
 		)
 		(uuid "1df4865f-98f4-4c45-9e5e-528e45069676")
+	)
+	(wire
+		(pts
+			(xy 527.05 95.25) (xy 530.86 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e0052d7-5597-4fb8-b5d9-256f4bdfb5d9")
 	)
 	(wire
 		(pts
@@ -17738,16 +17758,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 237.49) (xy 215.9 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad519a40-0890-40b2-adf6-9431f278a873")
-	)
-	(wire
-		(pts
 			(xy 36.195 24.765) (xy 38.735 24.765)
 		)
 		(stroke
@@ -18198,7 +18208,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 237.49) (xy 247.65 237.49)
+			(xy 215.9 237.49) (xy 247.65 237.49)
 		)
 		(stroke
 			(width 0)
@@ -18725,16 +18735,6 @@
 			(type default)
 		)
 		(uuid "deb66dd6-fe38-4e14-b7ee-cc5b541b780a")
-	)
-	(wire
-		(pts
-			(xy 527.05 95.25) (xy 530.86 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "debdadd3-0c06-4656-96bb-28a97d11a49e")
 	)
 	(wire
 		(pts
@@ -20016,6 +20016,16 @@
 		)
 		(uuid "c6dd4890-bff6-4e0d-8381-d5e72cb576a6")
 	)
+	(text "SP4020-01FTG"
+		(exclude_from_sim no)
+		(at 257.556 245.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ca661935-e1d2-49bb-b2e0-5b44d35bba9f")
+	)
 	(text "TODO:\n1. Optimize power topology\n2. Fix calculated values\n3. add a step-up incase the EXT_PWR is below 5V"
 		(exclude_from_sim no)
 		(at 475.996 20.32 0)
@@ -20447,7 +20457,7 @@
 	)
 	(global_label "CHRG_CTRL_2"
 		(shape input)
-		(at 416.56 227.33 0)
+		(at 412.75 226.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20457,7 +20467,7 @@
 		)
 		(uuid "1543ad79-b4af-48c1-893c-1ce20e15409f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 432.3661 227.33 0)
+			(at 428.5561 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21503,7 +21513,7 @@
 	)
 	(global_label "3V3"
 		(shape input)
-		(at 412.75 222.25 90)
+		(at 408.94 220.98 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21513,7 +21523,7 @@
 		)
 		(uuid "460561d5-eda4-4163-a452-8a453bde8910")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 412.75 215.7572 90)
+			(at 408.94 214.4872 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26063,7 +26073,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Green"
 			(at 121.92 173.0375 90)
 			(effects
 				(font
@@ -29802,6 +29812,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_TVS_Filled")
+		(at 247.65 241.3 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f57e15b-43f5-4a71-b344-37f10ef4d198")
+		(property "Reference" "D5"
+			(at 250.19 240.0299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SP4020"
+			(at 250.19 242.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 247.65 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
+			(at 247.65 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e382e2d7-9526-43d6-83c3-c4d0fedd68b0")
+		)
+		(pin "2"
+			(uuid "51489bd4-9f08-4ac8-9409-9cdf1db8d838")
+		)
+		(instances
+			(project "vfd-tool"
+				(path "/849d9919-4175-4212-8785-6cd0421cfa2d"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MAX17048G_T10:MAX17048G_T10")
 		(at 514.35 260.35 0)
 		(unit 1)
@@ -29991,7 +30071,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Purple"
 			(at 132.08 173.0375 90)
 			(effects
 				(font
@@ -30706,18 +30786,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5ed37b50-4005-49c5-b510-95ab0eef9f7a")
 		(property "Reference" "D12"
-			(at 545.7825 190.5 0)
+			(at 547.37 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LED"
-			(at 545.7825 193.04 0)
+		(property "Value" "Green"
+			(at 547.37 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31134,7 +31213,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 412.75 232.41 0)
+		(at 408.94 231.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31143,7 +31222,7 @@
 		(fields_autoplaced yes)
 		(uuid "64b19c35-6d30-4b6a-b6b0-8631c7f5b716")
 		(property "Reference" "#PWR066"
-			(at 412.75 238.76 0)
+			(at 408.94 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31152,7 +31231,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 412.75 237.49 0)
+			(at 408.94 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31160,7 +31239,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 412.75 232.41 0)
+			(at 408.94 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31169,7 +31248,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 412.75 232.41 0)
+			(at 408.94 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31178,7 +31257,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 412.75 232.41 0)
+			(at 408.94 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32660,7 +32739,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "32.768kHz "
+		(property "Value" "32.768kHz"
 			(at 199.39 62.2299 90)
 			(effects
 				(font
@@ -36444,7 +36523,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Green"
 			(at 114.3 192.7225 90)
 			(effects
 				(font
@@ -38396,7 +38475,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 527.05 99.06 90)
+		(at 527.05 99.06 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -38404,7 +38483,7 @@
 		(dnp no)
 		(uuid "c812d111-d0f3-461d-97c9-b3801865b603")
 		(property "Reference" "D10"
-			(at 529.844 97.028 0)
+			(at 524.256 101.092 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38413,7 +38492,7 @@
 			)
 		)
 		(property "Value" "CMS04"
-			(at 532.13 95.758 0)
+			(at 521.97 102.362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40066,76 +40145,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS_Filled")
-		(at 247.65 241.3 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dc589f83-319c-4bd5-bc8a-edc7b3d0f8ae")
-		(property "Reference" "D5"
-			(at 250.19 240.0299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SP4020"
-			(at 250.19 242.5699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 247.65 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 247.65 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
-			(at 247.65 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9b8104f1-7a10-40c6-bab7-e50e694ba426")
-		)
-		(pin "2"
-			(uuid "45f2d861-0664-4a02-9ff4-2bd6c42b019c")
-		)
-		(instances
-			(project "vfd-tool"
-				(path "/849d9919-4175-4212-8785-6cd0421cfa2d"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_17")
 		(lib_id "power:GND")
 		(at 185.42 68.58 0)
@@ -40506,7 +40515,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_3_Open")
-		(at 412.75 227.33 90)
+		(at 408.94 226.06 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -40515,7 +40524,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3159506-8658-476b-b97b-006a67806087")
 		(property "Reference" "JP3"
-			(at 410.21 226.0599 90)
+			(at 406.4 224.7899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40524,7 +40533,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_3_Open"
-			(at 410.21 228.5999 90)
+			(at 406.4 227.3299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40533,7 +40542,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
-			(at 412.75 227.33 0)
+			(at 408.94 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40542,7 +40551,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 412.75 227.33 0)
+			(at 408.94 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40551,7 +40560,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 3-pole, open"
-			(at 412.75 227.33 0)
+			(at 408.94 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41954,18 +41963,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f75f695c-9409-4a92-a580-86cea95f47fe")
 		(property "Reference" "D11"
-			(at 539.4325 198.12 0)
+			(at 540.004 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LED"
-			(at 539.4325 200.66 0)
+		(property "Value" "Blue"
+			(at 540.004 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
